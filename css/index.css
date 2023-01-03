@@ -1,0 +1,60 @@
+.btns{
+    background-color: aliceblue;
+    color: #000;
+}
+.btns:hover{
+background-color: #000;
+color: #ffff;
+}
+.images{
+    transform: scale();
+}
+/* .gallery-item {
+    overflow: hidden;
+  } */
+  
+  .gallery-item img {
+    display: flex;
+    width: 100%;
+    transition: all 0.8s;
+  }
+  
+  .gallery-item img:hover {
+    transform: rotate(10deg);
+  }
+  
+        * {
+            box-sizing: border-box;
+        }
+
+        .container .gallery a img {
+            float: left;
+            width: 25%;
+            height: auto;
+            border: 2px solid #fff;
+            -webkit-transition: -webkit-transform .15s ease;
+            -moz-transition: -moz-transform .15s ease;
+            -o-transition: -o-transform .15s ease;
+            -ms-transition: -ms-transform .15s ease;
+            transition: transform .15s ease;
+            position: relative;
+        }
+
+        .clear {
+            clear: both;
+        }
+
+        /* a {
+            color: #009688;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #01695f;
+            text-decoration: none;
+        } */
+
+/* .gk{
+    float: right;
+    margin: 30px;
+} */
